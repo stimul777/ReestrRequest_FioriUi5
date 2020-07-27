@@ -1,0 +1,88 @@
+.myDoneButton>span>span {
+	color: #008000 !important;
+}
+
+.myErrorButton>span>span {
+	color: #cc0303 !important;
+}
+
+.myAlertButton>span>span {
+	color: #FFD700 !important;
+}
+
+.myRefreshButton>span>span {
+	color: #87CEFA !important;
+}
+
+.myReleaseFormButton>span>span {
+	color: #008000 !important;
+}
+
+.myTitle {
+	padding-left: 400px !important;
+	font-size: inherit !important;
+}
+
+.myNumbersRequests {
+	text-align: center !important;
+	display: block !important;
+}
+
+.myButtonExit {
+	position: static !important;
+	left: 0 !important;
+	right: 0 !important;
+	margin: auto !important;
+}
+
+.myPageBackgoundColor {
+	background-color: #515151 !important;
+}
+
+.myColorT {
+	color: rgb(88, 153, 218) !important;
+}
+
+.myColorQ {
+	color:  rgb(232, 116, 59) !important;
+}
+
+.myColor1 {
+	color:  rgb(25, 169, 121) !important;
+}
+
+.sapMITBFilterDefault>.sapMITBText {
+	color: #ffffff !important;
+}
+
+.sapMITBFilterDefault.sapMITBSelected>.sapMITBText {
+	color: #ffffff !important;
+}
+
+.sapMITBSelected>.sapMITBContentArrow {
+	border-bottom-color: #ffcd40 !important;
+}
+
+.myMainLogo {
+	text-align: center !important;
+	display: block !important;
+	margin: auto !important;
+	height: 40% !important;
+	padding-top: 10% !important;
+}
+
+.searchBox {
+	padding-left: 0 !important;
+}
+
+.mydialogErr {
+	text-align: center;
+}
+
+.mydialogErr2 {
+	text-align: center;
+}
+
+.myPersEmailLabel {
+	padding-top: 10%;
+}

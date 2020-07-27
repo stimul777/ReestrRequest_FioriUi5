@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv='Content-Type' content='text/html;charset=UTF-8' />
+<title>Реестр запросов</title>
+
+<!-- <script
+	src="https://sapui5.hana.ondemand.com/resources/sap-ui-cachebuster/sap-ui-core.js"
+	id="sap-ui-bootstrap" 
+	data-sap-ui-theme="sap_bluecrystal"
+	data-sap-ui-libs="sap.m, sap.ui.layout, sap.ui.commons, sap.ui.table, sap.ui.ux3, sap.suite.ui.microchart, sap.viz"
+	data-sap-ui-xx-bindingSyntax="complex"
+	data-sap-ui-appCacheBuster="./">
+	
+</script> -->
+
+<script
+	src="resources/sap-ui-cachebuster/sap-ui-core.js"
+	id="sap-ui-bootstrap" 
+	data-sap-ui-theme="sap_bluecrystal"
+	data-sap-ui-libs="sap.m, sap.ui.layout, sap.ui.commons, sap.ui.table, sap.ui.ux3, sap.suite.ui.microchart, sap.viz"
+	data-sap-ui-xx-bindingSyntax="complex"
+	data-sap-ui-appCacheBuster="./">
+	
+</script>
+<script></script>
+<!--     <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+
+<script>
+	sap.ui.localResources("queryregistry");
+
+	jQuery.sap.require("jquery.sap.storage");
+	this.oStorage = jQuery.sap.storage(jQuery.sap.storage.Type.local);
+
+	jQuery.sap.registerModulePath("Controller", "Controller");
+	jQuery.sap.require("Controller");
+	jQuery.sap.registerModulePath("Component", "Component");
+	jQuery.sap.require("Component");
+
+	new sap.m.Shell("MainShell", {
+		title : "Реестр запросов",
+		showLogout : false,
+		appWidthLimited : false,
+		app : new sap.ui.core.ComponentContainer({
+			name : "queryregistry"
+		}),
+		homeIcon : {
+			'favicon' : 'images/MigoFavicon.ico',
+		},
+	}).placeAt("content");
+</script>
+
+</head>
+
+<body class="sapUiBody sapUiSizeCozy" id="content">
+
+</body>
+</html>
